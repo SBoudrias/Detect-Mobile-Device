@@ -2,7 +2,7 @@
 
 /* ----------------------------------------------------------
   
-	*** Mobile Device Detect ***
+	*** Detect Device ***
 	
 	
 	// -- English
@@ -37,7 +37,7 @@ class detect_device{
 	
     public $mobileredirect	= false;
     public $desktopredirect	= false;
-	public $noredirect = false;
+	public $noredirect 		= false;
 	
 	public $actual_device;
 	
