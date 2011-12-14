@@ -23,20 +23,20 @@
 
 class detect_device{
 	//set defaults
-    public $iphone		= true;
-    public $ipod		= true;
-    public $ipad		= false;
-    public $android		= true;
-    public $opera		= true;
-    public $blackberry	= true;
-    public $palm		= true;
-    public $windows		= true;
-    public $others		= true;
+	public $iphone		= true;
+	public $ipod		= true;
+	public $ipad		= false;
+	public $android		= true;
+	public $opera		= true;
+	public $blackberry	= true;
+	public $palm		= true;
+	public $windows		= true;
+	public $others		= true;
 	public $oldmobile	= true;
 	public $desktop		= false;
 	
-    public $mobileredirect	= false;
-    public $desktopredirect	= false;
+	public $mobileredirect	= false;
+	public $desktopredirect	= false;
 	public $noredirect 		= false;
 	
 	public $actual_device;
